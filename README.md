@@ -1,6 +1,15 @@
 # Videos-Upload-to-the-Database
 using PHP, HTML, CSS, BOOTSTRAP and MySQL
+<br><br>
 
+****important******<br>
+
+You must have to create folder named "upload"
+<br>and 
+
+
+
+******************
 <br><br>
 
 more info about codings....,,,
