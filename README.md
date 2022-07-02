@@ -6,7 +6,8 @@ using PHP, HTML, CSS, BOOTSTRAP and MySQL
 more info about codings....,,,
 <br><br>
 
-every .php file have comments
+every .php file have comments<br>
+and there I explain about line by line in the code
 
 
 
