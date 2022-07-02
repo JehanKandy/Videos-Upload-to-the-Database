@@ -5,9 +5,8 @@ using PHP, HTML, CSS, BOOTSTRAP and MySQL
 ****important******<br>
 
 You must have to create folder named "upload"
-<br>and 
-
-
+<br>and you must place that "upload" folder <br>
+with other files <br>
 
 ******************
 <br><br>
