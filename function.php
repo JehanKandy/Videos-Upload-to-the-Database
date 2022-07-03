@@ -58,6 +58,7 @@
                 // now move the video to above folder
                 move_uploaded_file($tmp_name, $video_file_path);
 
+
                 //now upload files to the database
                 $insert_video = "INSERT INTO videos(video_url,username,add_date)VALUES('$new_video','$username',NOW())";
                 $insert_video_result = mysqli_query($con, $insert_video);
@@ -75,6 +76,10 @@
         }
 
     }
+
+
+
+
 
     // create a function for view uploaded video
     function uploded_videos(){
@@ -95,8 +100,8 @@
                 print_r($video_row);  */
 
                 ?>
-
-                <video src="upload/<?= $video_row['video_url']; ?>" controls></video>
+                
+                <video src="upload/<?= $video_row['video_url']; ?>" name="video" id="myVideo" controls></video>
 
                 <div class="video-title">
                     <div class="video-title-content">
@@ -106,11 +111,8 @@
                     </div>
                 </div>
                 <?php
-
             }
         }
-        
-
     }
 
 
