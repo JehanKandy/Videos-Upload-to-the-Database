@@ -17,7 +17,7 @@
         font-size: 20px;
     }
     .video-title{
-        background-color: rgb(233, 233, 233);
+        background-color: rgb(233, 233, 233); 
         width: 620px;
         margin-left: 20px;
 
@@ -34,3 +34,4 @@
     <a href="test_video_upload.php">Upload new Video</a><br><br><br>
     <?php uploded_videos(); ?>
 </div>
+
