@@ -95,7 +95,16 @@
                 print_r($video_row);  */
 
                 ?>
+
                 <video src="upload/<?= $video_row['video_url']; ?>" controls></video>
+
+                <div class="video-title">
+                    <div class="video-title-content">
+                        <i class="far fa-eye"></i> Views 50M &nbsp;&nbsp;
+                        <i class="fas fa-download"></i> &nbsp;&nbsp;
+                        <i class="fas fa-cog"></i> &nbsp;&nbsp;
+                    </div>
+                </div>
                 <?php
 
             }
